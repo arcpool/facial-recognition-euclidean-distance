@@ -10,17 +10,12 @@ as a dataframe to the main program.
 
 import dlib
 import os
-#import dlib
 import glob
 import cv2
-#import time 
-#import os
-#import pandas as pd
 import numpy as np
 
 predictor_path = '/Users/arya/Desktop/dlib_stuff/shape_predictor_5_face_landmarks.dat' 
 face_rec_model_path = '/Users/arya/Desktop/models_for_ML/dlib_face_recognition_resnet_model_v1.dat'
-#tolerance=0.6
  
 #detector classes 
 detector = dlib.get_frontal_face_detector()
